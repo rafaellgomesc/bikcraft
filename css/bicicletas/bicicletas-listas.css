@@ -14,7 +14,7 @@
   max-width: 1400px;
   margin-left: auto;
   margin-right: auto;
-  overflow-x: auto;
+  overflow-x: auto; /* cria um scroll no eixo x para o elemento caso quebre o container */
 }
 
 .bicicletas-lista li {

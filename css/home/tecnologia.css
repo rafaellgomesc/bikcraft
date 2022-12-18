@@ -43,7 +43,7 @@
 
 .tecnologia-vantagens h3 {
   margin-bottom: 8px;
-  width: max-content;
+  width: max-content; /* Nunca quebrar o titulo */
 }
 
 .tecnologia-vantagens img {
