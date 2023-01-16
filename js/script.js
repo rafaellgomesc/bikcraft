@@ -33,8 +33,6 @@ function ativarPergunta(event) {
   resposta.classList.toggle("ativa");
   const ativa = resposta.classList.contains("ativa");
   pergunta.setAttribute("aria-expanded", ativa);
-
-  console.log(ativa);
 }
 function eventosPerguntas(pergunta) {
   pergunta.addEventListener("click", ativarPergunta);
